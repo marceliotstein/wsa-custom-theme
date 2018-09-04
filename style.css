@@ -1,0 +1,11 @@
+/*
+ Theme Name:	Apostrophe Child
+ Description:	Custom theme for World Service Authority
+ Author:	Marc Eliot Stein
+ Author URI:	https://marceliotstein.com
+ Template:	apostrophe
+*/
+
+.entry-title a {
+  color: #44cc44;
+}
