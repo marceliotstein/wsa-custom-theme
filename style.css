@@ -16,9 +16,16 @@
 }
 
 .main-navigation {
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
   border-top: solid #ffffff 0px;
   padding-top: 0px;
   margin: 0px;
+}
+
+.main-navigation li a {
+  margin: -12px 3rem 0 0;
+  padding: 0 0 1.5rem 0;
 }
 
 .widget-area .sidebar-primary aside {

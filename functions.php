@@ -34,8 +34,6 @@ function apostrophe_child_fonts_url() {
           }
 
           // fonts for worldservice.org
-          $font_families[] = 'Ovo:100,300,400,400italic,600,700';
-          $font_families[] = 'Zilla Slab:300,400,600';
           $font_families[] = 'Josefin Sans:400,600,700';
 
           $query_args = array(
