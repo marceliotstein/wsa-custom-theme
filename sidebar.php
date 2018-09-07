@@ -6,11 +6,10 @@
  */
 ?>
 	<div id="secondary" class="widget-area" role="complementary">
-                <div class="sidebar-passport"><img src="/wp-content/themes/apostrophe-child/images/docpass.gif" /></div>
-
 		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 		<div class="sidebar-primary">
-			<?php dynamic_sidebar( 'sidebar-1' ); ?>
+                          <img class="sidebar-passport" src="/wp-content/themes/apostrophe-child/images/docpass.gif" />
+			  <?php dynamic_sidebar( 'sidebar-1' ); ?>
 		</div>
 		<?php endif; ?>
 

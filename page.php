@@ -33,7 +33,6 @@ get_header(); ?>
 
 		</nav><!-- #site-navigation -->
 		<main id="main" class="site-main" role="main">
-                        <?php echo do_shortcode("[smartslider3 slider=2]"); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 

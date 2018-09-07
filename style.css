@@ -6,12 +6,37 @@
  Template:	apostrophe
 */
 
+#page {
+  padding-top 0px;
+  padding-bottom: 0px;
+}
+
 .blog .entry-title a {
   color: #44cc44;
 }
 
+.main-navigation {
+  border-top: solid #ffffff 0px;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.widget-area .sidebar-primary aside {
+  background-color: #01cd7c;
+  border-top-color: #01cd7c;
+}
+
+.sidebar-primary {
+  position: relative;
+  z-index: 1;
+  background-color: #01cd7c;
+}
+
+/* overlay passport image on primary sidebar */
 .sidebar-passport {
-  text-align: center;
-  transform: translateY(-100px);
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+  transform: translateX(-50%) translateY(-100px);
 }
 
