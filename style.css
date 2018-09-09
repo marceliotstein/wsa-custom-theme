@@ -23,8 +23,18 @@
   margin: 0px;
 }
 
+.main-navigation ul {
+  display: table;
+  width: 100%
+}
+
+.main-navigation li {
+  float: none;
+  display: table-cell;
+}
+
 .main-navigation li a {
-  margin: -12px 3rem 0 0;
+  margin: -12px 0 0 0;
   padding: 0 0 1.5rem 0;
 }
 
@@ -44,6 +54,6 @@
   left: 50%;
   position: absolute;
   z-index: 2;
-  transform: translateX(-50%) translateY(-100px);
+  transform: translateX(-50%) translateY(-40px);
 }
 
