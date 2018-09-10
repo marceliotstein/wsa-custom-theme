@@ -8,8 +8,14 @@
 	<div id="secondary" class="widget-area" role="complementary">
 		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 		<div class="sidebar-primary">
-                          <img class="sidebar-passport" src="/wp-content/themes/apostrophe-child/images/docpass.gif" />
-			  <?php dynamic_sidebar( 'sidebar-1' ); ?>
+                  <div class="sidebar-passport">
+                          <div class="sidebar-apply-here">APPLY HERE&nbsp;</div>
+                          <img "sidebar-passport-img" src="/wp-content/themes/apostrophe-child/images/docpass.gif" />
+                  </div>
+                          <!--<img class="sidebar-passport" src="/wp-content/themes/apostrophe-child/images/docpass.gif" />-->
+                  <div class="sidebar-after-passport">
+		    <?php dynamic_sidebar( 'sidebar-1' ); ?>
+                  </div>
 		</div>
 		<?php endif; ?>
 

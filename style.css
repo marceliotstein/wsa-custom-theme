@@ -49,11 +49,36 @@
   background-color: #01cd7c;
 }
 
-/* overlay passport image on primary sidebar */
+/* overlay passport promo on primary sidebar */
 .sidebar-passport {
   left: 50%;
   position: absolute;
   z-index: 2;
-  transform: translateX(-50%) translateY(-40px);
+  transform: translateX(-50%) translateY(-50px);
 }
 
+.sidebar-apply-here {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: .95em;
+  font-weight: 600;
+  line-height: .6;
+}
+
+.sidebar-after-passport {
+  transform: translateY(130px);
+}
+
+.widget-title {
+  display: none;
+}
+
+.textwidget {
+  font-family: "Domine", serif; 
+  font-weight: 200;
+  color: black;
+}
+
+.textwidget ul {
+  list-style: none;
+}
