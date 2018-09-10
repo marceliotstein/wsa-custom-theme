@@ -7,8 +7,12 @@
 */
 
 #page {
-  padding-top 0px;
-  padding-bottom: 0px;
+  padding: 0px;
+}
+
+#masthead,
+#content {
+  padding: 3.0303%;
 }
 
 .blog .entry-title a {
@@ -81,4 +85,28 @@
 
 .textwidget ul {
   list-style: none;
+}
+
+.site-footer {
+  padding: 3%;
+  min-height: 200px;
+  transform: translateY(130px);
+  background-color: #36454f;
+}
+
+.site-footer .textwidget,
+.site-footer .footer-main {
+  font-family: "Domine", serif; 
+  font-weight: 200;
+  color: white;
+  font-size: 14px;
+}
+
+.site-footer .site-info,
+.site-footer .widget-area {
+  border-top: 0px;
+}
+
+.site-footer .textwidget {
+  font-size: .7em;
 }
