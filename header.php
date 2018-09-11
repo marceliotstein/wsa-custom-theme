@@ -20,7 +20,7 @@
 		<div id="page" class="hfeed site">
 
 			<header id="masthead" class="site-header" role="banner">
-				<div style="cursor: pointer;" onclick="window.location='/';" class="site-branding">
+				<div style="cursor: pointer;" onclick="window.location='/';" class="site-branding-wsa-custom">
 					<?php
 					if ( function_exists( 'jetpack_the_site_logo' ) ) :
 					 	jetpack_the_site_logo();

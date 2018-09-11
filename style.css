@@ -15,6 +15,37 @@
   padding: 3.0303%;
 }
 
+/* because Apostrophe theme loads site-branding styles directly into source, use this custom style to override */
+
+.site-branding-wsa-custom {
+  background: url(http://worldservice.marceliotstein.net/wp-content/uploads/2018/09/worldservice-header-1.png) center center;
+  text-align: center;
+  background-size: auto;
+  min-height: 100px;
+}
+
+@media (min-width: 768px) {
+  .site-branding {
+    margin-bottom: 0;
+  }
+
+  .site-branding:before,
+  .site-branding:after {
+    content: "";
+    display: table;
+  }
+
+  .site-branding:after {
+    clear: both;
+  }
+}
+
+@media (max-width: 767px) {
+  .site.branding {
+    text-align: center;
+  }
+}
+
 .blog .entry-title a {
   color: #44cc44;
 }
