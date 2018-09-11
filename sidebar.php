@@ -8,9 +8,6 @@
 	<div id="secondary" class="widget-area" role="complementary">
 		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 		<div class="sidebar-primary">
-                  <div class="sidebar-donate">
-                          <img class="sidebar-donate-img" src="/wp-content/themes/apostrophe-child/images/wsa-donate-button.png" />
-                  </div>
                   <div class="sidebar-passport">
                           <div class="sidebar-apply-here">APPLY HERE&nbsp;</div>
                           <img class="sidebar-passport-img" src="/wp-content/themes/apostrophe-child/images/docpass.gif" />

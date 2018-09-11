@@ -21,7 +21,7 @@
 /* because Apostrophe theme loads site-branding styles directly into source, use this custom style to override */
 
 .site-branding-wsa-custom {
-  background: url(http://worldservice.marceliotstein.net/wp-content/uploads/2018/09/worldservice-header-1.png) center center;
+  background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/wsa-header.png) center center;
   text-align: center;
   background-size: auto;
   min-height: 100px;
@@ -51,6 +51,17 @@
 
 .blog .entry-title a {
   color: #44cc44;
+}
+
+.header-donate {
+  top: 45px;
+  left: 66%;
+  position: absolute;
+  z-index: 2;
+}
+
+.header-donate-img {
+  width: 80px;
 }
 
 .main-navigation {
@@ -85,15 +96,6 @@
   position: relative;
   z-index: 1;
   background-color: #01cd7c;
-}
-
-/* overlay donate button above primary sidebar */
-.sidebar-donate {
-  left: 57%;
-  position: absolute;
-  z-index: 2;
-  transform: translateY(-160px);
-  width: 80px;
 }
 
 /* overlay passport promo on primary sidebar */
