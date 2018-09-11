@@ -73,7 +73,7 @@
 
 .main-navigation li a {
   margin: -12px 0 0 0;
-  padding: 0 0 1.5rem 0;
+  padding: 0 0 0 0;
 }
 
 .widget-area .sidebar-primary aside {
@@ -85,6 +85,15 @@
   position: relative;
   z-index: 1;
   background-color: #01cd7c;
+}
+
+/* overlay donate button above primary sidebar */
+.sidebar-donate {
+  left: 57%;
+  position: absolute;
+  z-index: 2;
+  transform: translateY(-110px);
+  width: 80px;
 }
 
 /* overlay passport promo on primary sidebar */
