@@ -12,7 +12,10 @@
 
 #masthead,
 #content {
-  padding: 3.0303%;
+  padding-top: 1%;
+  padding-bottom: 2.5%;
+  padding-left: 3.0303%;
+  padding-right: 3.0303%;
 }
 
 /* because Apostrophe theme loads site-branding styles directly into source, use this custom style to override */
@@ -25,23 +28,23 @@
 }
 
 @media (min-width: 768px) {
-  .site-branding {
+  .site-branding-wsa-custom {
     margin-bottom: 0;
   }
 
-  .site-branding:before,
-  .site-branding:after {
+  .site-branding-wsa-custom:before,
+  .site-branding-wsa-custom:after {
     content: "";
     display: table;
   }
 
-  .site-branding:after {
+  .site-branding-wsa-custom:after {
     clear: both;
   }
 }
 
 @media (max-width: 767px) {
-  .site.branding {
+  .site-branding-wsa-custom {
     text-align: center;
   }
 }
@@ -89,7 +92,7 @@
   left: 50%;
   position: absolute;
   z-index: 2;
-  transform: translateX(-50%) translateY(-50px);
+  transform: translateX(-50%) translateY(-35px);
 }
 
 .sidebar-apply-here {
