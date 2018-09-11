@@ -64,6 +64,14 @@
   width: 80px;
 }
 
+.menu-navigation-container {
+  background-color: white;
+}
+
+.menu-item {
+  border-top: 1px green solid;
+}
+
 .main-navigation {
   font-family: "Josefin Sans";
   text-transform: uppercase;
@@ -83,7 +91,7 @@
 }
 
 .main-navigation li a {
-  margin: -12px 0 0 0;
+  margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
 
@@ -120,11 +128,11 @@
 
 /* social media icons */
 
-.fa {
+.social-icons .fa {
   padding: 6px 0px 0px 0px;
-  font-size: 30px;
-  width: 30px;
-  height: 30px;
+  font-size: 24px;
+  width: 36px;
+  height: 36px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -132,32 +140,33 @@
   color: white;
 }
 
-.fa:hover, .fa:active {
+.social-icons .fa:hover, 
+.social-icons .fa:active {
   color: white;
   opacity: 0.7;
 }
   
-.fa-facebook {
+.social-icons .fa-facebook {
   background: #3B5998;
 }
 
-.fa-twitter {
+.social-icons .fa-twitter {
   background: #55acee;
 }
 
-.fa-youtube {
+.social-icons .fa-youtube {
   background: #b31217;
 }
 
-.fa-yahoo {
+.social-icons .fa-yahoo {
   background: #720e9e;
 }
 
-.fa-instagram {
+.social-icons .fa-instagram {
   background: #517fa4;
 }
 
-.fa-linkedin {
+.social-icons .fa-linkedin {
   background: #0077b5;
 }
 
