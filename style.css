@@ -92,7 +92,7 @@
   left: 57%;
   position: absolute;
   z-index: 2;
-  transform: translateY(-110px);
+  transform: translateY(-160px);
   width: 80px;
 }
 
@@ -114,6 +114,49 @@
 
 .sidebar-after-passport {
   transform: translateY(130px);
+}
+
+/* social media icons */
+
+.fa {
+  padding: 6px 0px 0px 0px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px 2px;
+  color: white;
+}
+
+.fa:hover, .fa:active {
+  color: white;
+  opacity: 0.7;
+}
+  
+.fa-facebook {
+  background: #3B5998;
+}
+
+.fa-twitter {
+  background: #55acee;
+}
+
+.fa-youtube {
+  background: #b31217;
+}
+
+.fa-yahoo {
+  background: #720e9e;
+}
+
+.fa-instagram {
+  background: #517fa4;
+}
+
+.fa-linkedin {
+  background: #0077b5;
 }
 
 .widget-title {
