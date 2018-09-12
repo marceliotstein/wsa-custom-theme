@@ -12,17 +12,21 @@
 }
 
 @media (min-width: 1024px) {
+  #primary {
+    width: 74%;
+  }
+
   #secondary {
     padding-left: 12px;
     padding-right: 0px;
-    width: 30%;
+    width: 23%;
   }
 }
 
 #masthead,
 #content {
   padding-top: 1%;
-  padding-bottom: 2.5%;
+  padding-bottom: 1%;
   padding-left: 3.0303%;
   padding-right: 3.0303%;
 }
@@ -30,7 +34,8 @@
 /* because Apostrophe theme loads site-branding styles directly into source, use this custom style to override */
 
 .site-branding-wsa-custom {
-  background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/wsa-header.png) center center;
+  background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/worldservice-header-take5.png) center center;
+  background-repeat: no-repeat;
   text-align: center;
   background-size: auto;
   min-height: 100px;
@@ -59,12 +64,12 @@
 }
 
 .blog .entry-title a {
-  color: #01cd7c;
+  color: #018752;
 }
 
 .header-donate {
-  top: 45px;
-  left: 66%;
+  top: 38px;
+  left: 73%;
   position: absolute;
   z-index: 2;
 }
@@ -78,7 +83,7 @@
 }
 
 .menu-item {
-  border-top: 2px #01cd7c solid;
+  border-top: 2px #018752 solid;
 }
 
 .main-navigation {
@@ -105,14 +110,22 @@
 }
 
 .widget-area .sidebar-primary aside {
-  background-color: #01cd7c;
-  border-top-color: #01cd7c;
+  background-color: #119762;
+  border-top: 2px #364f4f solid;
+  margin-top: 14px;
+  padding-top: 10px;
+}
+
+.widget-area .sidebar-primary aside ul {
+  font-size: 18px;
 }
 
 .sidebar-primary {
   position: relative;
   z-index: 1;
-  background-color: #01cd7c;
+  background-color: #119762;
+  border-radius: 9px;
+  border: 2px #364f4f solid;
 }
 
 /* overlay passport promo on primary sidebar */
@@ -120,7 +133,7 @@
   left: 50%;
   position: absolute;
   z-index: 2;
-  transform: translateX(-50%) translateY(-35px);
+  transform: translateX(-50%) translateY(-30px);
 }
 
 .sidebar-apply-here {
@@ -129,10 +142,13 @@
   font-size: .95em;
   font-weight: 600;
   line-height: .6;
+  color: #36454f;
+  padding-top: 3px;
 }
 
 .sidebar-after-passport {
-  transform: translateY(130px);
+  font-size: 20px;
+  transform: translateY(200px);
 }
 
 /* social media icons */
