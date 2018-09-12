@@ -113,7 +113,7 @@
 .widget-area .sidebar-primary aside {
   background-color: #119762;
   border-top: 2px #364f4f solid;
-  margin-top: 14px;
+  margin-top: 4px;
   padding-top: 10px;
 }
 
@@ -143,13 +143,13 @@
   font-size: .95em;
   font-weight: 600;
   line-height: .6;
-  color: #36454f;
+  color: #ffffff;
   padding-top: 3px;
 }
 
 .sidebar-after-passport {
   font-size: 20px;
-  transform: translateY(200px);
+  transform: translateY(180px);
 }
 
 /* social media icons */
@@ -194,6 +194,10 @@
 
 .social-icons .fa-linkedin {
   background: #0077b5;
+}
+
+.widget {
+  padding: 0px 12px 0px 12px;
 }
 
 .widget-title {
