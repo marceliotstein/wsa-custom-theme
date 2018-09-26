@@ -10,7 +10,7 @@
 		<div class="sidebar-primary">
                   <div class="sidebar-passport">
                           <img class="sidebar-passport-img" src="/wp-content/themes/apostrophe-child/images/docpass.gif" />
-                          <div class="sidebar-apply-here">APPLY HERE&nbsp;</div>
+                          <div class="sidebar-apply-here">APPLY&nbsp;HERE&nbsp;</div>
                   </div>
                   <div class="sidebar-after-passport">
 		    <?php dynamic_sidebar( 'sidebar-1' ); ?>

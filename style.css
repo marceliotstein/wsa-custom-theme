@@ -142,14 +142,27 @@
   font-family: "Josefin Sans";
   font-size: .95em;
   font-weight: 600;
-  line-height: .6;
+  line-height: .6em;
   color: #ffffff;
-  padding-top: 3px;
 }
+
+/* fine-tune after-passport to account for image shrinking */
 
 .sidebar-after-passport {
   font-size: 20px;
-  transform: translateY(180px);
+  transform: translateY(160px);
+}
+
+@media (min-width: 1200px) {
+  .sidebar-after-passport {
+    transform: translateY(180px);
+  }
+}
+
+@media (min-width: 1315px) {
+  .sidebar-after-passport {
+    transform: translateY(200px);
+  }
 }
 
 /* social media icons */
