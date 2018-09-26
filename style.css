@@ -11,6 +11,18 @@
   max-width: none;
 }
 
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 { 
+  font-weight: 500;
+}
+
 @media (min-width: 1024px) {
   #primary {
     width: 74%;
