@@ -12,15 +12,32 @@
 }
 
 h1 {
+  font-family: "Domine", serif;
+  font-size: 3.6rem;
+  color: #000000;
   font-weight: 700;
 }
 
 h2 {
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
 h3 { 
   font-weight: 500;
+}
+
+.page-title,
+.entry-title {
+  background-color: #36454f;
+  color: white;
+  padding: 18px;
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  margin-top: 29px;
+  position: relative;
 }
 
 @media (min-width: 1024px) {
@@ -140,6 +157,19 @@ h3 {
   border-radius: 9px;
   border: 2px #364f4f solid;
 }
+
+.widget-area .sidebar-primary aside a,
+.widget-area .sidebar-primary aside a:active,
+.widget-area .sidebar-primary aside a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.widget-area .sidebar-primary aside a:hover {
+  text-decoration: underline;
+  color: #4f4faf;
+}
+
 
 /* overlay passport promo on primary sidebar */
 .sidebar-passport {
