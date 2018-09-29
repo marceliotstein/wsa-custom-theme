@@ -27,17 +27,25 @@ h3 {
   font-weight: 500;
 }
 
+.archive .entry-title,
+.blog .entry-title,
+.search .entry-title,
 .page-title,
 .entry-title {
   background-color: #36454f;
   color: white;
   padding: 18px;
   border-radius: 9px;
-  border-width: 1px;
+  border-width: 2px;
   border-style: solid;
   border-color: black;
   margin-top: 29px;
   position: relative;
+}
+
+h1.page-title,
+h1.entry-title {
+  font-weight: 400;
 }
 
 @media (min-width: 1024px) {
