@@ -34,19 +34,11 @@ get_header(); ?>
 		</nav><!-- #site-navigation -->
 		<main id="main" class="site-main" role="main">
                         <?php echo do_shortcode("[smartslider3 slider=2]"); ?>
+                        <?php echo do_shortcode("[youtube title='World Citizen Government Explained' video='nQ8bwQ2VXqU' autohide='2' color='green' controls='1' iv_load_policy='1' theme='dark' quality='default' button_layout='default' button_theme='default' button_subscriber_count='default' conditions='Array']"); ?>
 
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'content', 'page' ); ?>
-
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || '0' !== get_comments_number() ) :
-					comments_template();
-					endif;
-				?>
-
-			<?php endwhile; // end of the loop. ?>
+                        <!-- this template can get posts, but leave this disabled for now -->
+			<?php //while ( have_posts() ) : the_post(); ?>
+			<?php //endwhile; // end of the loop. ?>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->
