@@ -24,7 +24,11 @@ h2 {
 }
 
 h3 { 
-  font-weight: 500;
+  color: black;
+  font-size: 2rem;
+  font-face: "Domine", serif;
+  font-weight: 700;
+  line-height: 1em;
 }
 
 .archive .entry-title,
@@ -149,8 +153,8 @@ h1.entry-title {
 
 .widget-area .sidebar-primary aside {
   background-color: #119762;
-  border-top: 2px #364f4f solid;
-  margin-top: 4px;
+  border-top-width: 0px;
+  margin-top: 10px;
   padding-top: 10px;
 }
 
