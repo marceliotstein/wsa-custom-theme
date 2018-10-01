@@ -143,7 +143,7 @@ h1.entry-title {
 
 .header-donate {
   top: 38px;
-  left: 73%;
+  left: 71%;
   position: absolute;
   z-index: 2;
 }
@@ -156,17 +156,13 @@ h1.entry-title {
   background-color: white;
 }
 
-@media (max-width: 767px) {
-  .menu-navigation-container {
-    display: none;
-  }
-  
+@media (max-width: 1024px) {
   .site-branding-wsa-custom {
     background-size: contain;
   }
 }
 
-.main-navigation {
+.main-navigation.toggled-off {
   font-family: "Montserrat";
   text-transform: uppercase;
   border-top: solid #ffffff 0px;
@@ -174,19 +170,21 @@ h1.entry-title {
   margin: 0px;
 }
 
-.main-navigation ul {
-  display: table;
-  width: 100%
-}
+@media (min-width: 768px) {
+  .main-navigation ul {
+    display: table;
+    width: 100%
+  }
 
-.main-navigation li {
-  float: none;
-  display: table-cell;
-}
+  .main-navigation li {
+    float: none;
+    display: table-cell;
+  }
 
-.main-navigation li a {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  .main-navigation li a {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
 }
 
 .widget-area .sidebar-primary aside {

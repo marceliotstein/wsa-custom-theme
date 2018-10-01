@@ -23,11 +23,11 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<div class="entry-meta"><?php apostrophe_posted_on(); ?></div>
+	<!-- <div class="entry-meta"><?php //apostrophe_posted_on(); ?></div> -->
 
 	<footer class="entry-footer">
-		<?php apostrophe_entry_footer(); ?>
-		<?php apostrophe_post_nav(); ?>
-	</footer><!-- .entry-footer -->
+		<?php //apostrophe_entry_footer(); ?>
+		<?php //apostrophe_post_nav(); ?>
+  	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->
