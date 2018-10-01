@@ -34,8 +34,18 @@ get_header(); ?>
 		</nav><!-- #site-navigation -->
 		<main id="main" class="site-main" role="main">
                         <?php echo do_shortcode("[smartslider3 slider=2]"); ?>
-                        <?php echo do_shortcode("[youtube title='World Citizen Government Explained' video='nQ8bwQ2VXqU' autohide='2' color='green' controls='1' iv_load_policy='1' theme='dark' quality='default' button_layout='default' button_theme='default' button_subscriber_count='default' conditions='Array']"); ?>
+                        <div class="front-section front-videos">
+                          <h1>Recent Videos</h1>
+                          <?php echo do_shortcode("[youtube title='World Citizen Government Explained' video='nQ8bwQ2VXqU' autohide='2' color='green' controls='1' iv_load_policy='1' theme='dark' quality='default' button_layout='default' button_theme='default' button_subscriber_count='default' conditions='Array']"); ?>
+                        </div>
 
+	      	        <div class="front-section sidebar-secondary">
+                          <h1>WSA on Facebook</h1>
+		  	  <?php dynamic_sidebar('sidebar-2'); ?>
+		        </div>
+
+                        <div class="front-insta">
+                        <div>
                         <!-- this template can get posts, but leave this disabled for now -->
 			<?php //while ( have_posts() ) : the_post(); ?>
 			<?php //endwhile; // end of the loop. ?>

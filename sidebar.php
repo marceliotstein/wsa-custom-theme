@@ -18,11 +18,7 @@
 		</div>
 		<?php endif; ?>
 
-		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-		<div class="sidebar-secondary">
-			<?php dynamic_sidebar( 'sidebar-2' ); ?>
-		</div>
-		<?php endif; ?>
+                <?php // sidebar-secondary is moved to front page ?>
 
 		<?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
 		<div class="sidebar-tertiary">
