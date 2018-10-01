@@ -150,8 +150,14 @@ h1.entry-title {
   background-color: white;
 }
 
-.menu-item {
-  /*border-top: 2px #018752 solid;*/
+@media (max-width: 767px) {
+  .menu-navigation-container {
+    display: none;
+  }
+  
+  .site-branding-wsa-custom {
+    background-size: contain;
+  }
 }
 
 .main-navigation {
@@ -194,6 +200,7 @@ h1.entry-title {
   background-color: #119762;
   border-radius: 9px;
   border: 2px #364f4f solid;
+  min-height: 1600px;
 }
 
 .widget-area .sidebar-primary aside a,
