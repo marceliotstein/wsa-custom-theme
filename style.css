@@ -19,6 +19,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -64,7 +65,7 @@ h1.entry-title {
 }
 
 .front-section h1 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.2rem;
   padding-bottom: 0px;
 }
@@ -78,6 +79,11 @@ h1.entry-title {
   border-bottom-width: 0px;
 }
 
+#secondary {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 @media (min-width: 1024px) {
   #primary {
     width: 74%;
@@ -85,7 +91,7 @@ h1.entry-title {
 
   #secondary {
     margin-top: 28px;
-    padding-left: 12px;
+    padding-left: 0px;
     padding-right: 0px;
     width: 23%;
   }
@@ -161,7 +167,7 @@ h1.entry-title {
 }
 
 .main-navigation {
-  font-family: "Josefin Sans";
+  font-family: "Montserrat";
   text-transform: uppercase;
   border-top: solid #ffffff 0px;
   padding-top: 0px;
@@ -200,7 +206,7 @@ h1.entry-title {
   background-color: #119762;
   border-radius: 9px;
   border: 2px #364f4f solid;
-  min-height: 1600px;
+  min-height: 2600px;
 }
 
 .widget-area .sidebar-primary aside a,
@@ -215,6 +221,37 @@ h1.entry-title {
   color: #4f4faf;
 }
 
+.wsa-donate {
+  text-align: center;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1.0em;
+}
+
+.widget select {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.wsa-sidebar-promos {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: .8em;
+  font-weight: bold;
+  line-height: 1.1em;
+}
+
+.widget input {
+  width: initial;
+}
 
 /* overlay passport promo on primary sidebar */
 .sidebar-passport {
@@ -226,7 +263,7 @@ h1.entry-title {
 
 .sidebar-apply-here {
   text-align: center;
-  font-family: "Josefin Sans";
+  font-family: "Montserrat";
   font-size: .95em;
   font-weight: 600;
   line-height: .6em;
