@@ -6,16 +6,32 @@
  Template:	apostrophe
 */
 
+/*
+ * charcoal: #36454f
+ * green: #119762;
+*/
+
 #page {
   padding: 0px;
   max-width: none;
 }
 
+.site-main {
+  margin-top: 3px;
+  border-radius: 9px;
+}
+
 h1 {
   font-family: "Domine", serif;
   font-size: 3.6rem;
-  color: #000000;
+  color: #36454f;
   font-weight: 700;
+}
+
+.sidebar-primary h1,
+.sidebar-primary h2,
+.sidebar-primary h3 {
+  color: black;
 }
 
 h2 {
@@ -25,11 +41,18 @@ h2 {
 }
 
 h3 { 
-  color: black;
+  color: #36454f;
   font-size: 2rem;
   font-face: "Domine", serif;
   font-weight: 700;
   line-height: 1em;
+}
+
+/* smart slider style - override plugin CSS */
+
+.n2-ss-align.n2-ss-align-visible {
+    overflow: hidden !important;
+    border-radius: 9px !important;
 }
 
 .archive .entry-title,
@@ -43,7 +66,7 @@ h3 {
   border-radius: 9px;
   border-width: 2px;
   border-style: solid;
-  border-color: black;
+  border-color: #36454f;
   margin-top: 29px;
   position: relative;
 }
@@ -162,7 +185,17 @@ h1.entry-title {
   }
 }
 
-.main-navigation.toggled-off {
+.main-navigation a {
+  border-top-width: 0px;
+}
+
+.main-navigation.toggled-on .apostrophe-navigation li {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #119762;
+}
+
+.main-navigation {
   font-family: "Montserrat";
   text-transform: uppercase;
   border-top: solid #ffffff 0px;
@@ -211,7 +244,7 @@ h1.entry-title {
 .widget-area .sidebar-primary aside a:active,
 .widget-area .sidebar-primary aside a:visited {
   text-decoration: none;
-  color: #000000;
+  color: black;
 }
 
 .widget-area .sidebar-primary aside a:hover {
@@ -223,10 +256,10 @@ h1.entry-title {
   text-align: center;
   border-top-width: 2px;
   border-top-style: solid;
-  border-top-color: black;
+  border-top-color: #36454f;
   border-bottom-width: 2px;
   border-bottom-style: solid;
-  border-bottom-color: black;
+  border-bottom-color: #36454f;
   font-family: "Montserrat", sans-serif;
   font-size: .8em;
   font-weight: bold;
@@ -265,7 +298,7 @@ h1.entry-title {
   font-size: .95em;
   font-weight: 600;
   line-height: .6em;
-  color: #ffffff;
+  color: white;
 }
 
 /* fine-tune after-passport to account for image shrinking */
@@ -342,7 +375,7 @@ h1.entry-title {
 .textwidget {
   font-family: "Domine", serif; 
   font-weight: 200;
-  color: black;
+  color: #36454f;
 }
 
 .textwidget ul {
