@@ -25,8 +25,12 @@ a {
   color: #11a772;
 }
 
+.apostrophe-navigation li {
+  text-align: center;
+}
+
 h1 {
-  font-family: "Domine", serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 3.6rem;
   color: #36454f;
   font-weight: 700;
@@ -37,7 +41,7 @@ h1 {
   text-align: center;
 }
 
-.front-feature-legal {
+.front-legal {
   text-align: left;
   margin: 0 auto;
   width: 400px;
@@ -58,7 +62,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
   color: #36454f;
@@ -67,7 +71,7 @@ h2 {
 h3 { 
   color: #36454f;
   font-size: 2rem;
-  font-face: "Domine", serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 700;
   line-height: 1em;
 }
@@ -110,7 +114,7 @@ h1.entry-title {
 
 .front-section {
   width: 100%;
-  background-color: #3f7f7f;
+  background-color: #9fcfcf;
   padding-top: 28px;
   text-align: center;
   margin: 0 auto;
@@ -119,13 +123,12 @@ h1.entry-title {
 
 .front-trunk {
   margin-top: 7px;
-  background-color: #3f7f7f;
+  background-color: #9fcfcf;
 }
 
 .front-trunk h1 {
-  font-family: Domine;
+  font-family: 'Nunito', sans-serif;
   font-variant: small-caps;
-  font-weight: bold;
   font-size: 3rem;
   color: black;
 }
@@ -135,23 +138,23 @@ h1.entry-title {
 }
 
 .trunk-left {
-  width: 33%;
+  width: 45%;
   margin: 0;
   padding: 10px;
   float: left;
-  background-color: #3f7f7f;
+  background-color: #9fcfcf;
 }
 
 .trunk-right {
-  width: 66%;
+  width: 55%;
   margin: 0;
   padding: 10px;
   float: left;
-  background-color: #3f7f7f;
+  background-color: #9fcfcf;
 }
 
 .trunk-box {
-  background-color: #5f9f9f;
+  background-color: #afefef;
   padding: 10px;
   border-width: 3px;
   border-color: black;
@@ -272,7 +275,6 @@ h1.entry-title {
   .main-navigation ul {
     display: table;
     width: 100%;
-    padding-left: 15px;
   }
 
   .main-navigation li {
