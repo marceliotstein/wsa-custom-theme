@@ -8,7 +8,7 @@
 
 /*
  * charcoal: #36454f
- * green: #119762;
+ * green: #11a772;
 */
 
 #page {
@@ -21,11 +21,34 @@
   border-radius: 9px;
 }
 
+a {
+  color: #11a772;
+}
+
 h1 {
   font-family: "Domine", serif;
   font-size: 3.6rem;
   color: #36454f;
   font-weight: 700;
+}
+
+.front-features {
+  width: 100%;
+  text-align: center;
+}
+
+.front-feature-legal {
+  text-align: left;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-image: url("http://worldservice.marceliotstein.net/wp-content/uploads/2018/12/scale-bkg-light-blue.jpg");
+  background-size: cover;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
 }
 
 .sidebar-primary h1,
@@ -38,6 +61,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
+  color: #36454f;
 }
 
 h3 { 
@@ -48,11 +72,19 @@ h3 {
   line-height: 1em;
 }
 
+.entry-content {
+  padding: 0px 20px 0px 10px;
+}
+
+.comments-area {
+  display: none;
+}
+
 /* smart slider style - override plugin CSS */
 
 .n2-ss-align.n2-ss-align-visible {
     overflow: hidden !important;
-    border-radius: 9px !important;
+    /*border-radius: 9px !important;*/
 }
 
 .archive .entry-title,
@@ -77,9 +109,55 @@ h1.entry-title {
 }
 
 .front-section {
+  width: 100%;
+  background-color: #3f7f7f;
   padding-top: 28px;
   text-align: center;
   margin: 0 auto;
+  float: left;
+}
+
+.front-trunk {
+  margin-top: 7px;
+  background-color: #3f7f7f;
+}
+
+.front-trunk h1 {
+  font-family: Domine;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 3rem;
+  color: black;
+}
+
+.front-trunk a {
+  color: black;
+}
+
+.trunk-left {
+  width: 33%;
+  margin: 0;
+  padding: 10px;
+  float: left;
+  background-color: #3f7f7f;
+}
+
+.trunk-right {
+  width: 66%;
+  margin: 0;
+  padding: 10px;
+  float: left;
+  background-color: #3f7f7f;
+}
+
+.trunk-box {
+  background-color: #5f9f9f;
+  padding: 10px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .front-section iframe {
@@ -87,14 +165,10 @@ h1.entry-title {
   margin-bottom: 4px;
 }
 
-.front-section h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.2rem;
-  padding-bottom: 0px;
-}
-
 .front-videos {
-  width: 67%;
+  margin-top: 4px;
+  width: 100%;
+  background-color: #225555;
 }
 
 .front-section .widget {
@@ -109,29 +183,20 @@ h1.entry-title {
 
 @media (min-width: 1024px) {
   #primary {
-    width: 74%;
-  }
-
-  #secondary {
-    margin-top: 28px;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 23%;
+    float: none;
+    width: 100%;
   }
 }
 
 #masthead,
 #content {
-  padding-top: 0%;
-  padding-bottom: 0%;
-  padding-left: 3.0303%;
-  padding-right: 3.0303%;
+  padding: 0px;
 }
 
 /* because Apostrophe theme loads site-branding styles directly into source, use this custom style to override */
 
 .site-branding-wsa-custom {
-  background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/worldservice-header-take5.png) center center;
+  background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/worldservice-header-take6.png) center center;
   background-repeat: no-repeat;
   text-align: center;
   background-size: auto;
@@ -165,8 +230,8 @@ h1.entry-title {
 }
 
 .header-donate {
-  top: 38px;
-  left: 71%;
+  top: 57px;
+  left: 68%;
   position: absolute;
   z-index: 2;
 }
@@ -192,7 +257,7 @@ h1.entry-title {
 .main-navigation.toggled-on .apostrophe-navigation li {
   border-bottom-width: 2px;
   border-bottom-style: solid;
-  border-bottom-color: #119762;
+  border-bottom-color: #11a772;
 }
 
 .main-navigation {
@@ -206,7 +271,8 @@ h1.entry-title {
 @media (min-width: 768px) {
   .main-navigation ul {
     display: table;
-    width: 100%
+    width: 100%;
+    padding-left: 15px;
   }
 
   .main-navigation li {
@@ -221,7 +287,7 @@ h1.entry-title {
 }
 
 .widget-area .sidebar-primary aside {
-  background-color: #119762;
+  background-color: #11a772;
   border-top-width: 0px;
   margin-top: 10px;
   padding-top: 10px;
@@ -234,20 +300,20 @@ h1.entry-title {
 .sidebar-primary {
   position: relative;
   z-index: 1;
-  background-color: #119762;
+  background-color: #11a772;
   border-radius: 9px;
   border: 2px #364f4f solid;
   min-height: 2600px;
 }
 
-.widget-area .sidebar-primary aside a,
-.widget-area .sidebar-primary aside a:active,
-.widget-area .sidebar-primary aside a:visited {
+a,
+a:active,
+a:visited {
   text-decoration: none;
   color: black;
 }
 
-.widget-area .sidebar-primary aside a:hover {
+a:hover {
   text-decoration: underline;
   color: #4f4faf;
 }
