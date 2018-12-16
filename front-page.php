@@ -34,19 +34,37 @@ get_header(); ?>
   </nav><!-- #site-navigation -->
   <main id="main" class="site-main" role="main">
     <?php echo do_shortcode("[smartslider3 slider=4]"); ?>
-      <div class="front-section front-trunk">
-        <div class="trunk-left">
-          <div class="trunk-box front-apply">
-             <h1>Apply For Your World Citizenship Document</h1>
-             <center><a href="#"><img src="/wp-content/themes/apostrophe-child/images/docpass.gif"></a></center>
-             World Passport Application
-             <br />
-             <h2>Other Application Forms</h2>
-             <a href="#">Passport, Birth Certificate and ID Card</a><br />
-             <a href="#">Exit Visa and Residence Permit</a><br />
-             <a href="#">World Marriage Certificate</a><br />
-             <a href="#">World Political Asylum Card</a><br />
-          </div>
+      <table class="front-table">
+        <tr>
+          <td class="front-table-left front-donate">
+            <div class="front-donate-inner">
+              <h1>Support Our Work</h1>
+              <h2>Donate</h2>
+              <a href="#">I have 1 minute to help</a><br />
+              <a href="#">I have 5 minutes to help</a><br />
+              <a href="#">I have 30 minutes to help</a><br />
+              <h2>Appeal</h2>
+              <a href="#">Volunteer Opportunity</a><br />
+              <img class="littlebutton" src="/wp-content/themes/apostrophe-child/images/worldcitizenbutton.png" />
+            </div>
+          </td>
+          <td class="front-table-right front-apply">
+            <div class="front-apply-inner">
+              <h1>Apply For Your World Citizenship Document</h1>
+              <center><a href="#"><img src="/wp-content/themes/apostrophe-child/images/docpass.gif"></a></center>
+              World Passport Application
+              <br />
+              <h2>Other Application Forms</h2>
+              <a href="#">Passport, Birth Certificate and ID Card</a><br />
+              <a href="#">Exit Visa and Residence Permit</a><br />
+              <a href="#">World Marriage Certificate</a><br />
+              <a href="#">World Political Asylum Card</a><br />
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="front-trunk front-blue">
+        <div class="trunk-left front-blue">
           <div class="trunk-box front-publications">
             <h1>Catalog & Publications</h1>
             <h2>Books, Videos, etc.</h2>
@@ -71,7 +89,7 @@ get_header(); ?>
             <a href="#">Contact Form</a><br />
           </div>
         </div>
-        <div class="trunk-right">
+        <div class="trunk-right front-blue">
           <div class="trunk-box front-what">
             <a href="#">What Is World Citizenship?</a><br />
             <a href="#">How To Register</a><br />
@@ -84,21 +102,13 @@ get_header(); ?>
             <a href="#">What Is World Citizenship?</a><br />
             <h2><i>"We are all born free and equal in dignity and rights."</i></h2>
           </div>
-          <div class="trunk-box front-support">
-            <h1>Support Our Work</h1>
-            <h2>Donate</h2>
-            <a href="#">I have 1 minute to help</a><br />
-            <a href="#">I have 5 minutes to help</a><br />
-            <a href="#">I have 30 minutes to help</a><br />
-            <h2>Appeal</h2>
-            <a href="#">Volunteer Opportunity</a>
-          </div>
           <div class="trunk-box front-recognition">
             <a href="#">Legal Authority</a><br />
             <a href="#">Visas</a><br />
             <a href="#">Official Letters</a><br />
             <a href="#">Letters of Support</a><br />
             <a href="#">Why We Are World Citizens (Video)</a><br />
+            <a href="#">Global Roundup</a>
           </div>
           <div class="trunk-box front-legalx">
             <a href="#">World Commissions</a><br />
@@ -115,9 +125,11 @@ get_header(); ?>
             <br />
             <a href="#">World Government Programs</a><br />
           </div>
-          <div class="trunk-box front-perspectives">
-            <h2><a href="#">The Garry Davis/David Gallup Blog</a></h2>
-            <h2><a href="#">Global Roundup</h2>
+          <div class="trunk-box front-blog">
+            <div class="front-blog-inner">
+              <h2><a href="#">The David Gallup Blog</a></h2>
+            </div>
+            <h2><a href="#">The Garry Davis Blog Archive (1997 to 2003)</a></h2>
           </div>
           <div class="trunk-box front-videos">
             <h1>Recent Videos</h1>

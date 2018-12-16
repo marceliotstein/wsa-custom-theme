@@ -11,6 +11,10 @@
  * green: #11a772;
 */
 
+table tbody th, table td {
+  border-bottom: 0px;
+}
+
 #page {
   padding: 0px;
   max-width: none;
@@ -65,7 +69,7 @@ h2 {
   font-family: 'Nunito', sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
-  color: #36454f;
+  color: black;
 }
 
 h3 { 
@@ -107,50 +111,133 @@ h3 {
   position: relative;
 }
 
+.littlebutton {
+  width: 200px;
+}
+
 h1.page-title,
 h1.entry-title {
   font-weight: 400;
 }
 
-.front-section {
+td.front-donate,
+td.front-donate h1,
+td.front-donate h2 {
+  font-family: "Domine", serif;
+  text-transform: uppercase;
+  font-variant: none;
+  font-weight: 600;
+}
+
+.front-apply {
+  padding: 20px;
+}
+
+.front-apply-inner {
+  padding: 20px;
+  background-color: #ffffff !important;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+.front-blog {
   width: 100%;
-  background-color: #9fcfcf;
+  border-width: 0px !important;
+  background-color: #9fcfcf !important;
+}
+
+.front-blog-inner {
+  margin: 0 auto;
+  background-image: url("/wp-content/themes/apostrophe-child/images/davidgallup-with-flag.jpg");
+  background-size: cover;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  width: 260px;
+  height: 235px;
+} 
+
+.front-trunk {
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
   padding-top: 28px;
   text-align: center;
   margin: 0 auto;
   float: left;
+  margin-top: 7px;
+  background-color: #9f9f9f;
 }
 
-.front-trunk {
+.front-table {
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  padding-top: 28px;
+  text-align: center;
+  margin: 0 auto;
   margin-top: 7px;
+  background-color: #9f9f9f;
+}
+
+.front-table td {
+  vertical-align: middle;
+}
+
+.front-green {
+  background-color: #9fcf9f;
+}
+
+.front-blue {
+  background-color: #9f9fcf;
+}
+
+.front-aqua {
   background-color: #9fcfcf;
 }
 
-.front-trunk h1 {
+.front-trunk h1 ,
+.front-table h1 {
   font-family: 'Nunito', sans-serif;
   font-variant: small-caps;
-  font-size: 3rem;
+  font-size: 40px;
   color: black;
 }
 
-.front-trunk a {
+.front-trunk a,
+.front-trunk-table a {
   color: black;
+}
+
+.front-table-left {
+  width: 42%;
+  padding: 20px;
+}
+
+.front-table-right {
+  width: 58%;
+  padding: 20px;
 }
 
 .trunk-left {
   width: 45%;
   margin: 0;
-  padding: 10px;
-  float: left;
-  background-color: #9fcfcf;
+  padding: 20px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
 }
 
 .trunk-right {
   width: 55%;
   margin: 0;
-  padding: 10px;
-  float: left;
-  background-color: #9fcfcf;
+  padding: 20px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
 }
 
 .trunk-box {
@@ -163,7 +250,8 @@ h1.entry-title {
   margin-bottom: 10px;
 }
 
-.front-section iframe {
+.front-trunk iframe,
+.front-table iframe {
   margin-top: 4px;
   margin-bottom: 4px;
 }
@@ -174,7 +262,8 @@ h1.entry-title {
   background-color: #225555;
 }
 
-.front-section .widget {
+.front-trunk .widget,
+.front-table .widget {
   border-top-width: 0px;
   border-bottom-width: 0px;
 }
