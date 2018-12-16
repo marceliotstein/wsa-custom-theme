@@ -45,20 +45,6 @@ h1 {
   text-align: center;
 }
 
-.front-legal {
-  text-align: left;
-  margin: 0 auto;
-  width: 400px;
-  height: 400px;
-  background-image: url("http://worldservice.marceliotstein.net/wp-content/uploads/2018/12/scale-bkg-light-blue.jpg");
-  background-size: cover;
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  font-family: "Montserrat", sans-serif;
-  padding: 10px;
-}
-
 .sidebar-primary h1,
 .sidebar-primary h2,
 .sidebar-primary h3 {
@@ -91,8 +77,8 @@ h3 {
 /* smart slider style - override plugin CSS */
 
 .n2-ss-align.n2-ss-align-visible {
-    overflow: hidden !important;
-    /*border-radius: 9px !important;*/
+  overflow: hidden !important;
+  margin-bottom: 7px;
 }
 
 .archive .entry-title,
@@ -120,6 +106,24 @@ h1.entry-title {
   font-weight: 400;
 }
 
+td.front-legal {
+  background-color: #9f9fcf;
+  text-align: center;
+  font-family: "Domine", serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-variant: none;
+  font-weight: 600;
+}
+  
+td.front-callouts {
+  background-color: #9fcf9f;
+}
+
+td.front-links {
+  background-color: yellow;
+}
+
 td.front-donate,
 td.front-donate h1,
 td.front-donate h2 {
@@ -129,7 +133,7 @@ td.front-donate h2 {
   font-weight: 600;
 }
 
-.front-apply {
+td.front-apply {
   padding: 20px;
 }
 
@@ -177,7 +181,6 @@ td.front-donate h2 {
   padding-top: 28px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 7px;
   background-color: #9f9f9f;
 }
 
@@ -210,13 +213,18 @@ td.front-donate h2 {
   color: black;
 }
 
-.front-table-left {
+.front-td-left {
   width: 42%;
   padding: 20px;
 }
 
-.front-table-right {
+.front-td-right {
   width: 58%;
+  padding: 20px;
+}
+
+.front-td-single {
+  width: 100%;
   padding: 20px;
 }
 
