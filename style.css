@@ -34,7 +34,7 @@ a {
 }
 
 h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 3.6rem;
   color: #36454f;
   font-weight: 700;
@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
   color: black;
@@ -61,7 +61,7 @@ h2 {
 h3 { 
   color: #36454f;
   font-size: 2rem;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   line-height: 1em;
 }
@@ -106,6 +106,36 @@ h1.entry-title {
   font-weight: 400;
 }
 
+.front-instagram {
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  width: 500px;
+  background-color: #9fcf9f;
+  margin: 0 auto;
+}
+
+.front-videos h2 {
+  padding: 8px;
+  color: #9fcf9f;
+  font-family: "Domine", serif;
+  font-variant: small-caps;
+  background-color: black;
+  margin: 0;
+}
+
+.front-videos-inner {
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  background-color: black;
+}
+
+.front-videos {
+  font-family: "Domine", serif;
+  font-variant: small-caps;
+}
+
 td.front-legal {
   background-color: #9f9fcf;
   text-align: center;
@@ -115,14 +145,41 @@ td.front-legal {
   font-weight: 600;
 }
   
-.tight-list {
-  font-family: "Nunito`;
-  font-size: 1.1em;
-  font-weight: 600;
-  line-height: .9em;
+table {
+  border-width: 0px;
 }
 
-td.front-callouts {
+td.front-social {
+  background-color: #9fcf9f;
+}
+
+.front-social-title-box {
+  background-color: #9fcf9f;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.front-social-title {
+  padding: 20px;
+  background-color: black;
+  color: #9fcf9f;
+  margin: 0 auto;
+  font-family: "Domine", serif;
+  font-size: 2em;
+  width: 50%;
+}
+
+.tight-list {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.front-table td.front-callouts {
+  width: 50%;
+  vertical-align: top;
   background-color: #9fcf9f;
 }
 
@@ -156,10 +213,19 @@ td.front-apply {
   padding-right: 25px;
 }
 
+.front-catalog {
+  margin-top: 20px;
+  margin-bottom 20px;
+}
+
 .front-blog {
+  margin-top: 20px;
+  margin-bottom 20px;
   width: 100%;
-  border-width: 0px !important;
-  background-color: #9fcfcf !important;
+  background-color: #9fcfcf;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .front-blog-inner {
@@ -168,14 +234,14 @@ td.front-apply {
   background-size: cover;
   border-color: black;
   border-style: solid;
-  border-width: 3px;
+  border-width: 1px;
   border-radius: 5px;
   width: 260px;
   height: 235px;
 } 
 
 .front-trunk {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   width: 100%;
   padding-top: 28px;
   text-align: center;
@@ -186,7 +252,7 @@ td.front-apply {
 }
 
 .front-table {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   width: 100%;
   padding-top: 28px;
   text-align: center;
@@ -212,7 +278,7 @@ td.front-apply {
 
 .front-trunk h1 ,
 .front-table h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-variant: small-caps;
   font-size: 40px;
   color: black;
@@ -274,11 +340,6 @@ td.front-apply {
   margin-bottom: 4px;
 }
 
-.front-videos {
-  margin-top: 4px;
-  width: 100%;
-  background-color: #225555;
-}
 
 .front-trunk .widget,
 .front-table .widget {
@@ -371,7 +432,7 @@ td.front-apply {
 }
 
 .main-navigation {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   border-top: solid #ffffff 0px;
   padding-top: 0px;
@@ -469,7 +530,7 @@ a:hover {
 
 .sidebar-apply-here {
   text-align: center;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: .95em;
   font-weight: 600;
   line-height: .6em;

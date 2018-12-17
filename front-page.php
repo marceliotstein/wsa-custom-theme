@@ -92,15 +92,32 @@ get_header(); ?>
     <!-- catalog, social media, blog, videos -->
     <table class="front-table">
       <tr>
+        <td colspan="2" class="front-social">
+          <div class="front-social-title-box">
+            <div class="front-social-title">
+              Social Media, Videos and Publications
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
         <td class="front-td-left front-callouts">
-          <h1>Catalog & Publications</h1>
-          <h2>Books, Videos, etc.</h2>
-          <a href="#">Ellsworth Declaration</a><br />
-          <a href="#">Memorandum on World Government</a><br />
-          <a href="#">Position Paper</a><br />
-          <h2><a href="#">More WSA Info</a></h2>
+          <div class="front-videos">
+            <h2>Recent Videos</h2>
+            <div class="front-videos-inner">
+              <?php echo do_shortcode("[youtube title='World Citizen Government Explained' video='nQ8bwQ2VXqU' autohide='2' color='green' controls='1' iv_load_policy='1' theme='dark' quality='default' button_layout='default' button_theme='default' button_subscriber_count='default' conditions='Array']"); ?>
+            </div>
+          </div>
 
-          <div class="trunk-box front-blog">
+          <div class="front-catalog">
+            <h2>Books, Videos, etc.</h2>
+            <a href="#">Ellsworth Declaration</a><br />
+            <a href="#">Memorandum on World Government</a><br />
+            <a href="#">Position Paper</a><br />
+            <h2><a href="#">More WSA Info</a></h2>
+          </div>
+
+          <div class="front-blog">
             <div class="front-blog-inner">
               <h2><a href="#">The David Gallup Blog</a></h2>
             </div>
@@ -108,18 +125,11 @@ get_header(); ?>
           </div>
         </td>
         <td class="front-td-right front-callouts">
-          <h1>WSA on Facebook</h1>
 	  <div class="sidebar-secondary">
 	    <?php dynamic_sidebar('sidebar-2'); ?>
-          </div>
-          <div class="trunk-box front-twitter">
-          </div>
-          <div class="trunk-box front-instagram">
-          </div>
-
-          <div class="trunk-box front-videos">
-            <h1>Recent Videos</h1>
-            <?php echo do_shortcode("[youtube title='World Citizen Government Explained' video='nQ8bwQ2VXqU' autohide='2' color='green' controls='1' iv_load_policy='1' theme='dark' quality='default' button_layout='default' button_theme='default' button_subscriber_count='default' conditions='Array']"); ?>
+            <div class="front-instagram">
+              Instagram Feed Goes Here
+            </div>
           </div>
         </td>
       </tr>
