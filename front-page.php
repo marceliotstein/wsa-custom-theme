@@ -42,13 +42,17 @@ get_header(); ?>
       <tr>
         <td class="front-td-left front-donate">
           <div class="front-donate-inner">
-            <h1>Support Our Work</h1>
+            <h1>SUPPORT OUR WORK</h1>
             <h2>Donate</h2>
-            <a href="#">I have 1 minute to help</a><br />
-            <a href="#">I have 5 minutes to help</a><br />
-            <a href="#">I have 30 minutes to help</a><br />
-            <h2>Appeal</h2>
-            <a href="#">Volunteer Opportunity</a><br />
+            <div class="tight-list">
+              <a href="#">I have 1 minute to help</a><br />
+              <a href="#">I have 5 minutes to help</a><br />
+              <a href="#">I have 30 minutes to help</a><br />
+            </div>
+            <h2>APPEAL</h2>
+            <div class="tight-list">
+              <a href="#">Volunteer Opportunity</a><br />
+            </div>
             <img class="littlebutton" src="/wp-content/themes/apostrophe-child/images/worldcitizenbutton.png" />
           </div>
         </td>
@@ -56,13 +60,18 @@ get_header(); ?>
           <div class="front-apply-inner">
             <h1>Apply For Your World Citizenship Document</h1>
             <center><a href="#"><img src="/wp-content/themes/apostrophe-child/images/docpass.gif"></a></center>
-            World Passport Application
-            <br />
-            <h2>Other Application Forms</h2>
-            <a href="#">Passport, Birth Certificate and ID Card</a><br />
-            <a href="#">Exit Visa and Residence Permit</a><br />
-            <a href="#">World Marriage Certificate</a><br />
-            <a href="#">World Political Asylum Card</a><br />
+            <div class="tight-list">
+              <a href="#">World Passport Application</a>
+            </div>
+            <div class="front-apply-other">
+              <h2>Other Application Forms</h2>
+              <div class="tight-list">
+                <a href="#">Passport, Birth Certificate and ID Card</a> &nbsp; &#8226; &nbsp; 
+                <a href="#">Exit Visa and Residence Permit</a> &nbsp; &#8226; &nbsp; 
+                <a href="#">World Marriage Certificate</a> &nbsp; &#8226; &nbsp; 
+                <a href="#">World Political Asylum Card</a>
+              </div>
+            </div>
           </div>
         </td>
       </tr>

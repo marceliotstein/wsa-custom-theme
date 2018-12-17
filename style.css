@@ -110,12 +110,18 @@ td.front-legal {
   background-color: #9f9fcf;
   text-align: center;
   font-family: "Domine", serif;
-  text-transform: uppercase;
   font-size: 1.3em;
   font-variant: none;
   font-weight: 600;
 }
   
+.tight-list {
+  font-family: "Nunito`;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: .9em;
+}
+
 td.front-callouts {
   background-color: #9fcf9f;
 }
@@ -128,7 +134,6 @@ td.front-donate,
 td.front-donate h1,
 td.front-donate h2 {
   font-family: "Domine", serif;
-  text-transform: uppercase;
   font-variant: none;
   font-weight: 600;
 }
@@ -138,12 +143,17 @@ td.front-apply {
 }
 
 .front-apply-inner {
-  padding: 20px;
+  padding: 15px;
   background-color: #ffffff !important;
   border-color: black;
   border-style: solid;
   border-width: 3px;
   border-radius: 5px;
+}
+
+.front-apply-other {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .front-blog {
