@@ -137,7 +137,7 @@ h1.entry-title {
 }
 
 td.front-legal {
-  background-color: #9f9fcf;
+  background-color: yellow;
   text-align: center;
   font-family: "Domine", serif;
   font-size: 1.3em;
@@ -149,27 +149,72 @@ table {
   border-width: 0px;
 }
 
+.front-yahoo-group {
+  padding-top: 20px;
+}
+
+.front-social-table,
+.front-legal-table {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 td.front-social {
   background-color: #9fcf9f;
 }
 
-.front-social-title-box {
-  background-color: #9fcf9f;
-  padding: 20px;
+.front-social-title {
+  padding: 0px;
+  color: black;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1em;
+  font-size: 1em;
+}
+
+.front-legal-title-box {
+  background-color: yellow;
+  padding: 0px;
   text-align: center;
   width: 100%;
 }
 
-.front-social-title {
+.front-legal-title {
   padding: 20px;
   background-color: black;
-  color: #9fcf9f;
+  color: yellow;
   margin: 0 auto;
   font-family: "Domine", serif;
   font-size: 2em;
   width: 50%;
 }
 
+.front-catalog {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom 20px;
+}
+
+.front-catalog-table {
+  margin: 0 auto;
+  width: 410px;
+}
+
+.front-catalog-table td {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.0em;
+  vertical-align: top;
+  text-align: left;
+  width: 50%;
+}
+
+.front-cover-img {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+  
 .tight-list {
   font-family: "Nunito", sans-serif;
   font-size: 1.1em;
@@ -213,16 +258,13 @@ td.front-apply {
   padding-right: 25px;
 }
 
-.front-catalog {
-  margin-top: 20px;
-  margin-bottom 20px;
-}
-
 .front-blog {
+  padding-top: 20px;
   margin-top: 20px;
   margin-bottom 20px;
   width: 100%;
   background-color: #9fcfcf;
+  border-radius: 5px;
   border-color: black;
   border-style: solid;
   border-width: 3px;

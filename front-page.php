@@ -90,16 +90,7 @@ get_header(); ?>
     </table>
 
     <!-- catalog, social media, blog, videos -->
-    <table class="front-table">
-      <tr>
-        <td colspan="2" class="front-social">
-          <div class="front-social-title-box">
-            <div class="front-social-title">
-              Social Media, Videos and Publications
-            </div>
-          </div>
-        </td>
-      </tr>
+    <table class="front-table front-social-table">
       <tr>
         <td class="front-td-left front-callouts">
           <div class="front-videos">
@@ -111,10 +102,18 @@ get_header(); ?>
 
           <div class="front-catalog">
             <h2>Books, Videos, etc.</h2>
-            <a href="#">Ellsworth Declaration</a><br />
-            <a href="#">Memorandum on World Government</a><br />
-            <a href="#">Position Paper</a><br />
-            <h2><a href="#">More WSA Info</a></h2>
+            <table class="front-catalog-table">
+              <tr>
+                <td class="front-catalog-cover">
+                  <a href="#"><img class="front-cover-img" src="/wp-content/uploads/2018/10/GDtocourt.jpg" /></a>
+                </td>
+                <td class="front-catalog-text">
+                  <div><b><i>Garry Davis Goes to Court</i></b></div>
+                  <br />
+                  <div>World Citizen No.1's innovative legal defense of "world law," "world citizenship," and "world government"! Click here for more info and to buy!</div>
+                </td>
+              </tr>
+            </table>
           </div>
 
           <div class="front-blog">
@@ -126,9 +125,16 @@ get_header(); ?>
         </td>
         <td class="front-td-right front-callouts">
 	  <div class="sidebar-secondary">
+            <div class="front-social-title">
+              Follow World Service Authority on Facebook
+            </div>
 	    <?php dynamic_sidebar('sidebar-2'); ?>
             <div class="front-instagram">
               Instagram Feed Goes Here
+            </div>
+            <div class="front-yahoo-group">
+              <a href="#"><img src="/wp-content/themes/apostrophe-child/images/yg_join.gif" /></a><br />
+              <a href="#">Join our World Government discussion group on Yahoo</a>
             </div>
           </div>
         </td>
@@ -136,9 +142,53 @@ get_header(); ?>
     </table>
 
     <!-- contact and stuff -->
-    <table class="front-table">
+    <table class="front-table front-legal-table">
+      <tr>
+        <td colspan="2" class="front-legal">
+          <div class="front-legal-title-box">
+            <div class="front-legal-title">
+              Legal Resources and Further Information
+            </div>
+          </div>
+        </td>
+      </tr>
       <tr>
         <td class="front-td-left front-links">
+          <h1>Legal Resource Cener</h1>
+          <a mailto="#">Email</a><br />
+          <a href="#">Contact Form</a><br />
+          <a href="#">What Is World Citizenship?</a><br />
+          <a href="#">What Is The World Citizen Government?</a><br />
+          <a href="#">Historical Statements</a><br />
+          <a href="#">Historical Media (Audio and Video)</a><br />
+          <a href="#">Quotes on World Citizenship</a><br />
+          <a href="#">Universal Declaration of Human Rights</a><br />
+          <a href="#">What Is World Citizenship?</a><br />
+          <h2><i>"We are all born free and equal in dignity and rights."</i></h2>
+          <a href="#">Visas</a><br />
+          <a href="#">Official Letters</a><br />
+          <a href="#">Letters of Support</a><br />
+          <a href="#">Why We Are World Citizens (Video)</a><br />
+          <a href="#">Global Roundup</a>
+          <br />
+
+          <a href="#">Mundialization</a><br />
+          <a href="#">World Syntegrity Project</a><br />
+          <a href="#">World Referendum</a><br />
+          <br />
+
+          <a href="#">World Guards</a><br />
+          <a href="#">Definitions</a><br />
+          <a href="#">Main References</a><br />
+          <br />
+          <a href="#">World Government Programs</a><br />
+          <br />
+                  <a href="#">Ellsworth Declaration</a><br />
+                  <a href="#">Memorandum on World Government</a><br />
+                  <a href="#">Position Paper</a><br />
+                  <h2><a href="#">More WSA Info</a></h2>
+        </td>
+        <td class="front-td-right front-links">
           <h1>Contact WSA</
           <a mailto="#">Email</a><br />
           <a href="#">Contact Form</a><br />
