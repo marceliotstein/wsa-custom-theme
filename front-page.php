@@ -9,8 +9,10 @@
  * and that other 'pages' on your WordPress site will use a
  * different template.
  */
+?>
 
-get_header(); ?>
+
+<?php get_header(); ?>
 
 <section id="primary" class="content-area">
   <nav id="site-navigation" class="main-navigation" role="navigation">
@@ -33,6 +35,10 @@ get_header(); ?>
 
   </nav><!-- #site-navigation -->
   <main id="main" class="site-main" role="main">
+
+    <div class="welcomes-box">
+      <iframe class="welcomes-frame" src="https://wsa-welcomes.surge.sh"></iframe>
+    </div>
 
     <!-- slider -->
     <?php echo do_shortcode("[smartslider3 slider=4]"); ?>
@@ -154,72 +160,38 @@ get_header(); ?>
       </tr>
       <tr>
         <td class="front-td-left front-links">
-          <h1>Legal Resource Cener</h1>
-          <a mailto="#">Email</a><br />
+          <h1>Legal Resource Center</h1>
+          <a href="#">Definitions</a><br />
+          <a href="#">Main References</a><br />
+          <a href="#">Visas</a><br />
           <a href="#">Contact Form</a><br />
           <a href="#">What Is World Citizenship?</a><br />
           <a href="#">What Is The World Citizen Government?</a><br />
-          <a href="#">Historical Statements</a><br />
-          <a href="#">Historical Media (Audio and Video)</a><br />
-          <a href="#">Quotes on World Citizenship</a><br />
           <a href="#">Universal Declaration of Human Rights</a><br />
-          <a href="#">What Is World Citizenship?</a><br />
-          <h2><i>"We are all born free and equal in dignity and rights."</i></h2>
-          <a href="#">Visas</a><br />
-          <a href="#">Official Letters</a><br />
-          <a href="#">Letters of Support</a><br />
-          <a href="#">Why We Are World Citizens (Video)</a><br />
-          <a href="#">Global Roundup</a>
-          <br />
-
-          <a href="#">Mundialization</a><br />
-          <a href="#">World Syntegrity Project</a><br />
-          <a href="#">World Referendum</a><br />
-          <br />
-
-          <a href="#">World Guards</a><br />
-          <a href="#">Definitions</a><br />
-          <a href="#">Main References</a><br />
-          <br />
-          <a href="#">World Government Programs</a><br />
-          <br />
-                  <a href="#">Ellsworth Declaration</a><br />
-                  <a href="#">Memorandum on World Government</a><br />
-                  <a href="#">Position Paper</a><br />
-                  <h2><a href="#">More WSA Info</a></h2>
+          <a mailto="#">Email</a><br />
         </td>
         <td class="front-td-right front-links">
-          <h1>Contact WSA</
-          <a mailto="#">Email</a><br />
-          <a href="#">Contact Form</a><br />
-          <a href="#">What Is World Citizenship?</a><br />
-          <a href="#">What Is The World Citizen Government?</a><br />
-          <a href="#">Historical Statements</a><br />
-          <a href="#">Historical Media (Audio and Video)</a><br />
-          <a href="#">Quotes on World Citizenship</a><br />
-          <a href="#">Universal Declaration of Human Rights</a><br />
-          <a href="#">What Is World Citizenship?</a><br />
-          <h2><i>"We are all born free and equal in dignity and rights."</i></h2>
-          <a href="#">Visas</a><br />
+          <h1>About the WSA</h1>
           <a href="#">Official Letters</a><br />
           <a href="#">Letters of Support</a><br />
           <a href="#">Why We Are World Citizens (Video)</a><br />
           <a href="#">Global Roundup</a>
-          <br />
-
           <a href="#">Mundialization</a><br />
           <a href="#">World Syntegrity Project</a><br />
           <a href="#">World Referendum</a><br />
-          <br />
-
           <a href="#">World Guards</a><br />
-          <a href="#">Definitions</a><br />
-          <a href="#">Main References</a><br />
-          <br />
           <a href="#">World Government Programs</a><br />
+          <a href="#">Ellsworth Declaration</a><br />
+          <a href="#">Memorandum on World Government</a><br />
+          <a href="#">Position Paper</a><br />
         </td>
       </tr>
     </table>
+    
+
+    <div class="front-bottom-quote">
+      <h2><i>"We are all born free and equal in dignity and rights."</i></h2>
+    </div>
 
   </main><!-- #main -->
 </section><!-- #primary -->

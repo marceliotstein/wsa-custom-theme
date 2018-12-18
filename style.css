@@ -160,7 +160,7 @@ table {
 }
 
 td.front-social {
-  background-color: #9fcf9f;
+  background-color: #61d7a2;
 }
 
 .front-social-title {
@@ -225,10 +225,29 @@ td.front-social {
 .front-table td.front-callouts {
   width: 50%;
   vertical-align: top;
-  background-color: #9fcf9f;
+  background-color: #61d7a2;
 }
 
+.front-bottom-quote {
+  text-align: center;
+}
+
+.welcomes-frame {
+  margin: 0 auto;
+  border-width: 0px;
+  height: 30px;
+}
+
+.welcomes-box {
+  text-align: center;
+  background-color: #61d7a2;
+  height: 30px;
+}
+
+.front-table td.front-links,
 td.front-links {
+  width: 50%;
+  vertical-align: top;
   background-color: yellow;
 }
 
