@@ -216,7 +216,7 @@ td.front-social {
 }
   
 .tight-list {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans";
   font-size: 1.1em;
   font-weight: 600;
   line-height: 1.2em;
@@ -251,15 +251,28 @@ td.front-links {
   background-color: yellow;
 }
 
+td.front-donate {
+  width: 42%;
+}
+
 td.front-donate,
 td.front-donate h1,
 td.front-donate h2 {
-  font-family: "Domine", serif;
+  font-family: "Nunito Sans";
   font-variant: none;
   font-weight: 600;
 }
 
+.front-donate-button {
+  margin-top: 5px;
+}
+
+.littlebutton {
+  margin-top: 15px;
+}
+
 td.front-apply {
+  width: 58%;
   padding: 20px;
 }
 
@@ -301,24 +314,13 @@ td.front-apply {
   height: 235px;
 } 
 
-.front-trunk {
-  font-family: "Nunito", sans-serif;
-  width: 100%;
-  padding-top: 28px;
-  text-align: center;
-  margin: 0 auto;
-  float: left;
-  margin-top: 7px;
-  background-color: #9f9f9f;
-}
-
 .front-table {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans";
   width: 100%;
   padding-top: 28px;
   text-align: center;
   margin: 0 auto;
-  background-color: #9f9f9f;
+  background-color: #cfcfcf;
 }
 
 .front-table td {
@@ -337,26 +339,17 @@ td.front-apply {
   background-color: #9fcfcf;
 }
 
-.front-trunk h1 ,
 .front-table h1 {
-  font-family: "Nunito", sans-serif;
-  font-variant: small-caps;
+  font-family: "Nunito Sans";
   font-size: 40px;
   color: black;
 }
 
-.front-trunk a,
-.front-trunk-table a {
-  color: black;
-}
-
 .front-td-left {
-  width: 42%;
   padding: 20px;
 }
 
 .front-td-right {
-  width: 58%;
   padding: 20px;
 }
 
@@ -365,44 +358,12 @@ td.front-apply {
   padding: 20px;
 }
 
-.trunk-left {
-  width: 45%;
-  margin: 0;
-  padding: 20px;
-  border-width: 3px;
-  border-color: black;
-  border-style: solid;
-  border-radius: 5px;
-}
-
-.trunk-right {
-  width: 55%;
-  margin: 0;
-  padding: 20px;
-  border-width: 3px;
-  border-color: black;
-  border-style: solid;
-  border-radius: 5px;
-}
-
-.trunk-box {
-  background-color: #afefef;
-  padding: 10px;
-  border-width: 3px;
-  border-color: black;
-  border-style: solid;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-.front-trunk iframe,
 .front-table iframe {
   margin-top: 4px;
   margin-bottom: 4px;
 }
 
 
-.front-trunk .widget,
 .front-table .widget {
   border-top-width: 0px;
   border-bottom-width: 0px;
@@ -462,21 +423,28 @@ td.front-apply {
 }
 
 .header-donate {
-  top: 57px;
-  left: 68%;
+  top: 35px;
+  left: 80%;
   position: absolute;
   z-index: 2;
 }
 
-.header-donate-img {
+.header-donate-img,
+.front-donate-img {
   width: 80px;
+}
+
+@media (max-width: 1199px) {
+  .header-donate-img {
+    width: 70px;
+  }
 }
 
 .menu-navigation-container {
   background-color: white;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .site-branding-wsa-custom {
     background-size: contain;
   }

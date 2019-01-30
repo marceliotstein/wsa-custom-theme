@@ -46,38 +46,37 @@
     <!-- donate and apply -->
     <table class="front-table">
       <tr>
-        <td class="front-td-left front-donate">
-          <div class="front-donate-inner">
-            <h1>SUPPORT OUR WORK</h1>
-            <h2>Donate</h2>
-            <div class="tight-list">
-              <a href="#">I have 1 minute to help</a><br />
-              <a href="#">I have 5 minutes to help</a><br />
-              <a href="#">I have 30 minutes to help</a><br />
-            </div>
-            <h2>APPEAL</h2>
-            <div class="tight-list">
-              <a href="#">Volunteer Opportunity</a><br />
-            </div>
-            <img class="littlebutton" src="/wp-content/themes/apostrophe-child/images/worldcitizenbutton.png" />
-          </div>
-        </td>
-        <td class="front-td-right front-apply">
+        <td class="front-td-left front-apply">
           <div class="front-apply-inner">
-            <h1>Apply For Your World Citizenship Document</h1>
+            <h1>APPLY FOR YOUR WORLD CITIZENSHIP DOCUMENT</h1>
             <center><a href="#"><img src="/wp-content/themes/apostrophe-child/images/docpass.gif"></a></center>
             <div class="tight-list">
               <a href="#">World Passport Application</a>
             </div>
             <div class="front-apply-other">
-              <h2>Other Application Forms</h2>
+              <h2>OTHER APPLICATION FORMS</h2>
               <div class="tight-list">
-                <a href="#">Passport, Birth Certificate and ID Card</a> &nbsp; &#8226; &nbsp; 
+                <a href="#">Birth Card, Birth Certificate and ID Card</a> &nbsp; &#8226; &nbsp; 
                 <a href="#">Exit Visa and Residence Permit</a> &nbsp; &#8226; &nbsp; 
                 <a href="#">World Marriage Certificate</a> &nbsp; &#8226; &nbsp; 
                 <a href="#">World Political Asylum Card</a>
               </div>
             </div>
+          </div>
+        </td>
+        <td class="front-td-right front-donate">
+          <div class="front-donate-inner">
+            <h1>Support Our Work</h1>
+            <div class="front-donate-button">
+              <img class="front-donate-img" src="/wp-content/themes/apostrophe-child/images/wsa-donate-button-grey.png" />
+            </div>
+            <h2>Volunteer Opportunities</h2>
+            <div class="tight-list">
+              <a href="#">I have 1 minute to help</a><br />
+              <a href="#">I have 5 minutes to help</a><br />
+              <a href="#">I have 30 minutes to help</a><br />
+            </div>
+            <img class="littlebutton" src="/wp-content/themes/apostrophe-child/images/i-am-a-world-citizen-circle-grey.jpg" />
           </div>
         </td>
       </tr>

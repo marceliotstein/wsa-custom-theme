@@ -37,6 +37,7 @@ function apostrophe_child_fonts_url() {
           $font_families[] = 'Montserrat:400,600';
           $font_families[] = 'Domine:200,400';
           $font_families[] = 'Nunito:400';
+          $font_families[] = 'Nunito Sans:400,600';
 
           $query_args = array(
                   'family' => urlencode( implode( '|', $font_families ) ),
