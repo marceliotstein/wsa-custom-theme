@@ -86,10 +86,10 @@
     <table class="front-table">
       <tr>
         <td class="front-td-single front-legal">
+          <a href="#">Frequently Asked Questions</a> &nbsp; &#8226; &nbsp;
           <a href="#">Legal Authority and Usage</a> &nbsp; &#8226; &nbsp;
-          <a href="#">WSA Legal Department</a> &nbsp; &#8226; &nbsp;
           <a href="#">World Commissions</a> &nbsp; &#8226; &nbsp;
-          <a href="#">Frequently Asked Questions</a>
+          <a href="#">WSA Legal Department</a>
         </td>
       </tr>
     </table>
@@ -98,6 +98,18 @@
     <table class="front-table front-social-table">
       <tr>
         <td class="front-td-left front-callouts">
+	  <div class="sidebar-secondary">
+	    <?php dynamic_sidebar('sidebar-2'); ?>
+            <div class="front-instagram">
+              Instagram Feed Goes Here
+            </div>
+            <div class="front-yahoo-group">
+              <a href="#"><img src="/wp-content/themes/apostrophe-child/images/yg_join.gif" /></a><br />
+              <a href="#">Join our World Government discussion group on Yahoo</a>
+            </div>
+          </div>
+        </td>
+        <td class="front-td-right front-callouts">
           <div class="front-videos">
             <h2>Recent Videos</h2>
             <div class="front-videos-inner">
@@ -126,21 +138,6 @@
               <h2><a href="#">The David Gallup Blog</a></h2>
             </div>
             <h2><a href="#">The Garry Davis Blog Archive (1997 to 2003)</a></h2>
-          </div>
-        </td>
-        <td class="front-td-right front-callouts">
-	  <div class="sidebar-secondary">
-            <div class="front-social-title">
-              Follow World Service Authority on Facebook
-            </div>
-	    <?php dynamic_sidebar('sidebar-2'); ?>
-            <div class="front-instagram">
-              Instagram Feed Goes Here
-            </div>
-            <div class="front-yahoo-group">
-              <a href="#"><img src="/wp-content/themes/apostrophe-child/images/yg_join.gif" /></a><br />
-              <a href="#">Join our World Government discussion group on Yahoo</a>
-            </div>
           </div>
         </td>
       </tr>

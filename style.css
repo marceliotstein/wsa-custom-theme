@@ -107,18 +107,18 @@ h1.entry-title {
 }
 
 .front-instagram {
+  margin: 40px auto 0px auto;
   border-width: 3px;
   border-style: solid;
   border-color: black;
   width: 500px;
   background-color: #9fcf9f;
-  margin: 0 auto;
 }
 
 .front-videos h2 {
   padding: 8px;
   color: #9fcf9f;
-  font-family: "Domine", serif;
+  font-family: "Nunito Sans", serif;
   font-variant: small-caps;
   background-color: black;
   margin: 0;
@@ -132,12 +132,12 @@ h1.entry-title {
 }
 
 .front-videos {
-  font-family: "Domine", serif;
+  font-family: "Nunito Sans", serif;
   font-variant: small-caps;
 }
 
 td.front-legal {
-  background-color: yellow;
+  background-color: #ffff22;
   text-align: center;
   font-family: "Domine", serif;
   font-size: 1.3em;
@@ -161,15 +161,6 @@ table {
 
 td.front-social {
   background-color: #61d7a2;
-}
-
-.front-social-title {
-  padding: 0px;
-  color: black;
-  margin: 0 auto;
-  font-family: "Montserrat", sans-serif;
-  line-height: 1em;
-  font-size: 1em;
 }
 
 .front-legal-title-box {
@@ -264,7 +255,7 @@ td.front-donate h2 {
 }
 
 .front-donate-button {
-  margin-top: 5px;
+  margin-top: 12px;
 }
 
 .littlebutton {
@@ -367,6 +358,8 @@ td.front-apply {
 .front-table .widget {
   border-top-width: 0px;
   border-bottom-width: 0px;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
 }
 
 #secondary {
@@ -638,8 +631,7 @@ a:hover {
 }
 
 .textwidget {
-  font-family: "Domine", serif; 
-  font-weight: 200;
+  font-family: "Nunito Sans", serif; 
   color: #36454f;
 }
 
