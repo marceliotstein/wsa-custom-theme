@@ -426,7 +426,7 @@ td.front-apply {
 
 .header-donate {
   top: 35px;
-  left: 80%;
+  left: 77%;
   position: absolute;
   z-index: 2;
 }
@@ -436,9 +436,13 @@ td.front-apply {
   width: 80px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
+  .header-donate {
+    left: 73%;
+   }
+
   .header-donate-img {
-    width: 70px;
+    width: 62px;
   }
 }
 
