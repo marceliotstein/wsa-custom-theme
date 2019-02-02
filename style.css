@@ -655,6 +655,16 @@ a:hover {
   background-color: #36454f;
 }
 
+.site-footer a,
+.site-footer a:active,
+.site-footer a:visited {
+  color: white;
+}
+
+.site-footer h3 {
+  display: inline;
+}
+
 .site-footer .textwidget,
 .site-footer .footer-main {
   font-family: "Domine", serif; 

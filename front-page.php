@@ -159,44 +159,32 @@
         <td colspan="2" class="front-legal">
           <div class="front-legal-title-box">
             <div class="front-legal-title">
-              Legal Resources and Further Information
+              Resources and Information
             </div>
           </div>
         </td>
       </tr>
       <tr>
         <td class="front-td-left front-links">
-          <h1>Legal Resource Center</h1>
-          <a href="#">Definitions</a><br />
+          <h1>Resources</h1>
+          <a href="#">Definitions: What is World Citizenship and the World Citizen Government?</a><br />
+          <a href="#">How to register as a World Citizen</a><br />
           <a href="#">Main References</a><br />
-          <a href="#">Visas</a><br />
-          <a href="#">Contact Form</a><br />
-          <a href="#">What Is World Citizenship?</a><br />
-          <a href="#">What Is The World Citizen Government?</a><br />
-          <a href="#">Universal Declaration of Human Rights</a><br />
-          <a mailto="#">Email</a><br />
+          <a href="#">Contact Us</a><br />
         </td>
         <td class="front-td-right front-links">
           <h1>About the WSA</h1>
-          <a href="#">Official Letters</a><br />
-          <a href="#">Letters of Support</a><br />
-          <a href="#">Why We Are World Citizens (Video)</a><br />
-          <a href="#">Global Roundup</a>
-          <a href="#">Mundialization</a><br />
-          <a href="#">World Syntegrity Project</a><br />
-          <a href="#">World Referendum</a><br />
-          <a href="#">World Guards</a><br />
-          <a href="#">World Government Programs</a><br />
-          <a href="#">Ellsworth Declaration</a><br />
-          <a href="#">Memorandum on World Government</a><br />
-          <a href="#">Position Paper</a><br />
+          <a href="#">Programs</a><br />
+          <a href="#">Recognition</a><br />
+          <a href="#">World Citizen Clubs</a><br />
+          <a href="#">Donate/Support</a>
         </td>
       </tr>
     </table>
     
 
     <div class="front-bottom-quote">
-      <h2><i>"We are all born free and equal in dignity and rights."</i></h2>
+      <h2><i>"The will of the people shall be the basis of the authority of government ..."<br /> Article 21(3), Universal Declaration of Human Rights</i></h2>
     </div>
 
   </main><!-- #main -->
