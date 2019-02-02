@@ -105,8 +105,14 @@
             </div>
             <div class="front-yahoo-group">
               <a href="#"><img src="/wp-content/themes/apostrophe-child/images/yg_join.gif" /></a><br />
-              <a href="#">Join our World Government discussion group on Yahoo</a>
+              Join the dialogue on human rights and world citizenship! <a href="#">Subscribe to the WorldCitizen Yahoo Group</a>
             </div>
+          </div>
+          <div class="front-roundup"> 
+            <h2>Global Roundup</h2>
+            <a href="#">Article 1</a><br />
+            <a href="#">Article 2</a><br />
+            <a href="#">Article 3</a>
           </div>
         </td>
         <td class="front-td-right front-callouts">
@@ -116,9 +122,13 @@
               <?php echo do_shortcode("[youtube title='World Citizen Government Explained' video='nQ8bwQ2VXqU' autohide='2' color='green' controls='1' iv_load_policy='1' theme='dark' quality='default' button_layout='default' button_theme='default' button_subscriber_count='default' conditions='Array']"); ?>
             </div>
           </div>
+          <div class="front-videos-text">
+            <h3><a href="http://www.youtube.com/subscription_center?add_user=WorldServiceofficial">Subscribe to World Service videos on YouTube</a></h3>
+            <a href="http://worldcitizenvideos.blogspot.com/">More videos on World Citizenship at worldcitizenvideos.blogpost.com</a>
+          </div>
 
           <div class="front-catalog">
-            <h2>Books, Videos, etc.</h2>
+            <h2><a href="/world-service-authority-catalog">WSA Catalog (Publications, Buttons, etc.)</a></h2>
             <table class="front-catalog-table">
               <tr>
                 <td class="front-catalog-cover">
@@ -127,17 +137,17 @@
                 <td class="front-catalog-text">
                   <div><b><i>Garry Davis Goes to Court</i></b></div>
                   <br />
-                  <div>World Citizen No.1's innovative legal defense of "world law," "world citizenship," and "world government"! Click here for more info and to buy!</div>
+                  <div>World Citizen No.1's innovative legal defense of "world law," "world citizenship," and "world government"! <a href="/world-service-authority-catalog/">Click here</a> for more info and to buy!</div>
+                  <br />
+                  <h3><a href="/world-service-authority-catalog/">Visit Catalog</a></h3>
                 </td>
               </tr>
             </table>
           </div>
 
           <div class="front-blog">
-            <div class="front-blog-inner">
-              <h2><a href="#">The David Gallup Blog</a></h2>
-            </div>
-            <h2><a href="#">The Garry Davis Blog Archive (1997 to 2003)</a></h2>
+            <div class="front-blog-inner"></div>
+            <h2><a href="#">The Garry Davis Blog Archive</a></h2>
           </div>
         </td>
       </tr>

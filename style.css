@@ -11,6 +11,10 @@
  * green: #11a772;
 */
 
+body {
+  color: #000000;
+}
+
 table tbody th, table td {
   border-bottom: 0px;
 }
@@ -52,7 +56,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
   color: black;
@@ -151,8 +155,13 @@ table {
 
 .front-yahoo-group {
   padding-top: 20px;
+  line-height: 1em;
 }
 
+.front-roundup {
+  padding-top: 20px;
+}
+  
 .front-social-table,
 .front-legal-table {
   padding-top: 30px;
@@ -182,7 +191,7 @@ td.front-social {
 
 .front-catalog {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom 20px;
 }
 
@@ -192,7 +201,7 @@ td.front-social {
 }
 
 .front-catalog-table td {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 1.2em;
   line-height: 1.0em;
   vertical-align: top;
@@ -231,8 +240,8 @@ td.front-social {
 
 .welcomes-box {
   text-align: center;
-  background-color: #61d7a2;
-  height: 30px;
+  background-color: #3fdfaf;
+  height: 34px;
 }
 
 .front-table td.front-links,
@@ -295,14 +304,14 @@ td.front-apply {
 
 .front-blog-inner {
   margin: 0 auto;
-  background-image: url("/wp-content/themes/apostrophe-child/images/davidgallup-with-flag.jpg");
+  background-image: url("/wp-content/themes/apostrophe-child/images/world-citizen-blog.jpg");
   background-size: cover;
   border-color: black;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  width: 260px;
-  height: 235px;
+  width: 340px;
+  height: 258px;
 } 
 
 .front-table {
