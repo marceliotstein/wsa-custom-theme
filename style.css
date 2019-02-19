@@ -116,7 +116,6 @@ h1.entry-title {
   border-style: solid;
   border-color: black;
   width: 500px;
-  background-color: #9fcf9f;
 }
 
 .front-videos h2 {
@@ -140,8 +139,17 @@ h1.entry-title {
   font-variant: small-caps;
 }
 
+td.front-faq {
+  background-color: yellow;
+  text-align: center;
+  font-family: "Domine", serif;
+  font-size: 1.3em;
+  font-variant: none;
+  font-weight: 600;
+}
+
 td.front-legal {
-  background-color: #ffff22;
+  background-color: #ffffaa;
   text-align: center;
   font-family: "Domine", serif;
   font-size: 1.3em;
@@ -173,7 +181,7 @@ td.front-social {
 }
 
 .front-legal-title-box {
-  background-color: yellow;
+  background-color: #ffffaa;
   padding: 0px;
   text-align: center;
   width: 100%;
@@ -182,7 +190,7 @@ td.front-social {
 .front-legal-title {
   padding: 20px;
   background-color: black;
-  color: yellow;
+  color: #ffffaa;
   margin: 0 auto;
   font-family: "Domine", serif;
   font-size: 2em;
@@ -225,10 +233,12 @@ td.front-social {
 .front-table td.front-callouts {
   width: 50%;
   vertical-align: top;
-  background-color: #61d7a2;
+  background-color: #cfcfcf;
 }
 
 .front-bottom-quote {
+  padding-top: 20px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
@@ -240,7 +250,7 @@ td.front-social {
 
 .welcomes-box {
   text-align: center;
-  background-color: #3fdfaf;
+  background-color: #018752;
   height: 34px;
 }
 
@@ -248,7 +258,7 @@ td.front-social {
 td.front-links {
   width: 50%;
   vertical-align: top;
-  background-color: yellow;
+  background-color: #ffffaa;
 }
 
 td.front-donate {
@@ -391,7 +401,7 @@ td.front-apply {
 /* because Apostrophe theme loads site-branding styles directly into source, use this custom style to override */
 
 .site-branding-wsa-custom {
-  background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/worldservice-header-take6.png) center center;
+  background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/worldservice-header-take7.png) center center;
   background-repeat: no-repeat;
   text-align: center;
   background-size: auto;
@@ -560,7 +570,7 @@ a:hover {
   left: 50%;
   position: absolute;
   z-index: 2;
-  transform: translateX(-50%) translateY(-30px);
+  transform: translateX(-50%) translateY(-45px);
 }
 
 .sidebar-apply-here {
@@ -654,8 +664,7 @@ a:hover {
 
 .site-footer {
   padding: 3%;
-  min-height: 200px;
-  transform: translateY(130px);
+  transform: translateY(-30px);
   background-color: #36454f;
 }
 

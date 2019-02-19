@@ -37,7 +37,7 @@
   <main id="main" class="site-main" role="main">
 
     <div class="welcomes-box">
-      <iframe class="welcomes-frame" src="https://wsa-welcomes.surge.sh"></iframe>
+      <iframe class="welcomes-frame" scrolling="no" src="https://wsa-welcomes.surge.sh"></iframe>
     </div>
 
     <!-- slider -->
@@ -48,7 +48,7 @@
       <tr>
         <td class="front-td-left front-apply">
           <div class="front-apply-inner">
-            <h1>APPLY FOR YOUR WORLD CITIZENSHIP DOCUMENT</h1>
+            <h1>APPLY FOR YOUR WORLD CITIZENSHIP DOCUMENTS</h1>
             <center><a href="#"><img src="/wp-content/themes/apostrophe-child/images/docpass.gif"></a></center>
             <div class="tight-list">
               <a href="#">World Passport Application</a>
@@ -57,6 +57,7 @@
               <h2>OTHER APPLICATION FORMS</h2>
               <div class="tight-list">
                 <a href="#">Birth Card, Birth Certificate and ID Card</a> &nbsp; &#8226; &nbsp; 
+                <a href="#">World Citizen Card and Certificate</a> &nbsp; &#8226; &nbsp; 
                 <a href="#">Exit Visa and Residence Permit</a> &nbsp; &#8226; &nbsp; 
                 <a href="#">World Marriage Certificate</a> &nbsp; &#8226; &nbsp; 
                 <a href="#">World Political Asylum Card</a>
@@ -85,7 +86,7 @@
     <!-- legal -->
     <table class="front-table">
       <tr>
-        <td class="front-td-single front-legal">
+        <td class="front-td-single front-faq">
           <a href="#">Frequently Asked Questions</a> &nbsp; &#8226; &nbsp;
           <a href="#">Legal Authority and Usage</a> &nbsp; &#8226; &nbsp;
           <a href="#">World Commissions</a> &nbsp; &#8226; &nbsp;
@@ -181,7 +182,6 @@
         </td>
       </tr>
     </table>
-    
 
     <div class="front-bottom-quote">
       <h2><i>"The will of the people shall be the basis of the authority of government ..."<br /> Article 21(3), Universal Declaration of Human Rights</i></h2>
