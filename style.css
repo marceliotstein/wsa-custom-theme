@@ -132,6 +132,24 @@ h1.entry-title {
 .front-videos {
   font-family: "Nunito Sans", serif;
   font-variant: small-caps;
+  max-width: 
+}
+
+@media (max-width: 1023px) {
+  div.front-blog {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .front-videos {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .front-catalog-text {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 td.front-faq {
@@ -235,6 +253,11 @@ td.front-social {
   padding-top: 20px;
   padding-bottom: 15px;
   text-align: center;
+}
+
+@media (max-width: 1023px) {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .welcomes-frame {
@@ -368,7 +391,6 @@ td.front-apply {
   margin-bottom: 4px;
 }
 
-
 .front-table .widget {
   border-top-width: 0px;
   border-bottom-width: 0px;
@@ -376,6 +398,61 @@ td.front-apply {
   margin-bottom: 0px;
 }
 
+@media (max-width: 1023px) {
+  .front-table, 
+  .front-table tbody,
+  .front-table tr,
+  .front-table td {
+    display: block;
+  }
+
+  .front-catalog-table {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .front-catalog-table td {
+    text-align: center;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .front-catalog-table, 
+  .front-catalog-table tbody,
+  .front-catalog-table tr,
+  .front-catalog-table td {
+    display: block;
+  }
+
+  .front-legal-table, 
+  .front-legal-table tbody,
+  .front-legal-table tr,
+  .front-legal-table td {
+    display: block;
+  }
+
+  .front-table td.front-links,
+  td.front-links {
+    width: 100%;
+  }
+
+  tbody { 
+    width: 100%;
+  }
+
+  td.front-apply,
+  td.front-donate,
+  .front-table td.front-callouts {
+    width: 100%;
+  }
+
+  .front-yahoo-group {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 #secondary {
   padding-left: 0px;
   padding-right: 0px;
@@ -705,6 +782,13 @@ a:hover {
   font-weight: 200;
   color: white;
   font-size: 14px;
+}
+
+@media (max-width: 1023px) {
+  .footer-main {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .site-footer .site-info,
