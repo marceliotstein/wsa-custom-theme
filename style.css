@@ -93,11 +93,6 @@ h3 {
   background-color: #36454f;
   color: white;
   padding: 18px;
-  border-radius: 9px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #36454f;
-  margin-top: 29px;
   position: relative;
 }
 
@@ -386,11 +381,21 @@ td.front-apply {
   padding-right: 0px;
 }
 
+@media (max-width: 1023px) {
+  #secondary { 
+    margin-top: 30px;
+  } 
+}
+
 @media (min-width: 1024px) {
   #primary {
     float: none;
     width: 100%;
   }
+}
+
+article {
+  float: right;
 }
 
 #masthead,
@@ -401,7 +406,7 @@ td.front-apply {
 /* because Apostrophe theme loads site-branding styles directly into source, use this custom style to override */
 
 .site-branding-wsa-custom {
-  background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/worldservice-header-take7.png) center center;
+  background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/worldservice-header.png) center center;
   background-repeat: no-repeat;
   text-align: center;
   background-size: auto;
@@ -426,6 +431,9 @@ td.front-apply {
 
 @media (max-width: 767px) {
   .site-branding-wsa-custom {
+    background: url(http://worldservice.marceliotstein.net/wp-content/themes/apostrophe-child/images/worldservice-header-narrow.png) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     text-align: center;
   }
 }
@@ -460,20 +468,22 @@ td.front-apply {
   background-color: white;
 }
 
-@media (max-width: 1023px) {
-  .site-branding-wsa-custom {
-    background-size: contain;
-  }
-}
-
 .main-navigation a {
   border-top-width: 0px;
 }
 
+/*
 .main-navigation.toggled-on .apostrophe-navigation li {
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: #11a772;
+}
+*/
+
+@media (max-width: 767px) {
+  .main-navigation .menu-toggle {
+    border-bottom-width: 0px;
+  }
 }
 
 .main-navigation {
@@ -481,6 +491,7 @@ td.front-apply {
   text-transform: uppercase;
   border-top: solid #ffffff 0px;
   padding-top: 0px;
+  padding-left: 5px;
   margin: 0px;
 }
 
@@ -501,6 +512,15 @@ td.front-apply {
   }
 }
 
+blockquote {
+  border-width: 0px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  line-height: 1.3em;
+  margin: 12px 4px 12px 4px;
+  padding: 1px 4px 1px 12px;
+}
+
 .widget-area .sidebar-primary aside {
   background-color: #11a772;
   border-top-width: 0px;
@@ -516,9 +536,10 @@ td.front-apply {
   position: relative;
   z-index: 1;
   background-color: #11a772;
-  border-radius: 9px;
   border: 2px #364f4f solid;
   min-height: 2600px;
+  margin-right: 30px;
+  float: right;
 }
 
 a,
