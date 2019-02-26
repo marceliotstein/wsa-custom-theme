@@ -71,7 +71,13 @@ h3 {
 }
 
 .entry-content {
-  padding: 0px 20px 0px 10px;
+  padding: 0px 20px 0px 20px;
+}
+
+@media (max-width: 1023px) {
+  .entry-content {
+    padding: 0px 40px 0px 40px;
+  }
 }
 
 .comments-area {
@@ -453,6 +459,7 @@ td.front-apply {
     margin-right: 20px;
   }
 }
+
 #secondary {
   padding-left: 0px;
   padding-right: 0px;
@@ -460,14 +467,14 @@ td.front-apply {
 
 @media (max-width: 1023px) {
   #secondary { 
+    float: left;
     margin-top: 30px;
   } 
 }
 
 @media (min-width: 1024px) {
   #primary {
-    float: none;
-    width: 100%;
+    float: left;
   }
 }
 

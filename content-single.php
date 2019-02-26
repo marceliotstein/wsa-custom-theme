@@ -1,9 +1,10 @@
 <?php
-	/**
+/**
  * @package Apostrophe
  *
  */
 ?>
+
 <article id="post-<?php the_ID(); ?>">
 
 	<h1 class="entry-title">
@@ -11,9 +12,11 @@
 		<?php apostrophe_post_format(); ?>
 	<?php endif; ?>
 	<?php the_title(); ?></h1>
-	<?php edit_post_link( __( 'Edit', 'apostrophe' ), '<span class="edit-link">', '</span>' ); ?>
+          <section id="primary" class="content-area">
+	    <main id="main" class="site-main" role="main">
+	      <?php edit_post_link( __( 'Edit', 'apostrophe' ), '<span class="edit-link">', '</span>' ); ?>
 
-	<div class="entry-content">
+	      <div class="entry-content">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
@@ -21,9 +24,11 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	      </div><!-- .entry-content -->
 
-	<!-- <div class="entry-meta"><?php //apostrophe_posted_on(); ?></div> -->
+	      <!-- <div class="entry-meta"><?php //apostrophe_posted_on(); ?></div> -->
+	   </main><!-- #main -->
+	</section><!-- #primary -->
 
 	<footer class="entry-footer">
 		<?php //apostrophe_entry_footer(); ?>
