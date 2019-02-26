@@ -29,6 +29,7 @@
 	      <!-- <div class="entry-meta"><?php //apostrophe_posted_on(); ?></div> -->
 	   </main><!-- #main -->
 	</section><!-- #primary -->
+        <?php get_sidebar(); ?>
 
 	<footer class="entry-footer">
 		<?php //apostrophe_entry_footer(); ?>

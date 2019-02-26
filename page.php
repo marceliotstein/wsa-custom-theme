@@ -17,6 +17,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'page' ); ?>
+                        <?php get_sidebar(); ?>
 
 			<?php
 			// If comments are open or we have at least one comment, load up the comment template
@@ -27,9 +28,6 @@ get_header(); ?>
 
 		<?php endwhile; // end of the loop. ?>
 
-                <hr />
-                <?php get_sidebar(); ?>
-                <hr />
 	</main><!-- #main -->
   </section><!-- #primary -->
 <?php get_footer(); ?>
